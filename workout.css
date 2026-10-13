@@ -1,0 +1,66 @@
+*{text-align: center}
+body{
+ margin: 0;
+padding: 20px;
+background: #0b0b0b;
+  color:white;
+  font-family: Arial, sans-serif;
+  img-url:/storage/emulated/O/prlifts/body.png
+}
+section{
+  text-align: center;
+  padding:15px;
+  font-style: bold ;
+  margin-bottom: 10px
+}
+h1{
+ margin-bottom: 40px
+}
+.card {
+ background: #191919;
+ padding: 20px;
+ border-radius: 15px;
+ margin-bottom: 18px;
+ border: 1px solid #303030;
+}
+
+.card h2 {
+ color: #00ff88;
+}
+button {
+            background: #00ff88;
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            padding: 13px;
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .workout {
+            background: #252525;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+nav {
+ width: 90%;
+ height: 60px;
+ background: black;
+ border-radius: 10px;
+ position :fixed;
+ top:550px;
+ display: flex;
+ column-gap: 1px;
+ align-content: center;
+}
+
+        nav button {
+         margin-right:30px;
+            font-size: 12px;
+         height: 40px;
+         width: 60px;
+            padding: 12px 5px;
+        }
